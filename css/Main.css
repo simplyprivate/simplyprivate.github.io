@@ -3,6 +3,7 @@ body{
     background-color: black;
     overflow: hidden;
     font-family: QuickSand;
+    zoom: 80%
 }
 
 @font-face {
@@ -31,8 +32,8 @@ body{
 
 .rain {
     position:absolute;
-    width: 100%;
-    height: 100%;
+    width: 00%;
+    height: 200%;
     background: transparent;
     pointer-events: none;
     z-index: 3;
