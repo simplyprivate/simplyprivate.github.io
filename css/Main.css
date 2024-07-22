@@ -3,6 +3,9 @@ body{
     background-color: black;
     overflow: hidden;
     font-family: QuickSand;
+    
+}
+html{
     zoom: 80%;
 }
 
