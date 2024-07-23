@@ -20,25 +20,14 @@ html{
 }
 
 /*---{ Effects }---*/
-.giantball{
-    position: absolute;
-    height: 470px;
-    width: 1500px;
-    background-color: rgb(109, 37, 53);
-    margin-top: 500;
-    margin-left: -70;
-    border-radius: 100%;
-    filter: blur(100px);
-    animation: riseball ease-in-out 15s
-}
 
 .rain {
-    position:absolute;
-    width: 00%;
-    height: 200%;
+    position: absolute;
+    width: 100%;
+    height:53vw;
     background: transparent;
     pointer-events: none;
-    z-index: 3;
+    z-index: 99;
 }
 .drop {
     width: 3px;
@@ -50,16 +39,6 @@ html{
     border-radius: 100%;
 }
 
-.closeP{
-    width: 150%;
-    height: 0%;
-    position: relative;
-    background: black;
-    z-index: 50;
-    margin: 0;
-    padding: 0;
-}
-
 @keyframes rise {
     from {
         transform: translateY(0);
@@ -69,18 +48,5 @@ html{
     }
 }
 
-/*---{ Other }---*/
-
-.version{
-    width: 10;
-    position: absolute;
-    color:white;
-    z-index: 0;
-    margin-top: 610;
-    margin-left: 1290;
-    user-select: none;
-    -webkit-user-select: none;
-    font-family: QuickSand;
-}
 
 

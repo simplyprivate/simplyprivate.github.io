@@ -43,7 +43,7 @@ body{
   height: 100;
   position: absolute;
   margin-top: -165px;
-  margin-left: 140;
+  margin-left: 040;
   cursor: pointer;
   transition: 0.2s;
 }
@@ -67,7 +67,7 @@ body{
   height: 100;
   position: absolute;
   margin-top: -165px;
-  margin-left: 590;
+  margin-left: 500;
   cursor: pointer;
   transition: 0.2s;
 }

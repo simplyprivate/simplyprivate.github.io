@@ -1,7 +1,7 @@
 function createDrop() {
     const drop = document.createElement("div");
     drop.className = "drop";
-    drop.style.left = `${Math.random() * 100}vw`;
+    drop.style.left = `${Math.random() * 200}vw`;
     drop.style.animationDuration = `${Math.random() * 0.7 + 0.09}s`;
     document.querySelector('.rain').appendChild(drop);
 
@@ -11,6 +11,6 @@ function createDrop() {
     });
 }
 
-for (let i = 0; i < 60; i++) {
+for (let i = 0; i < 100; i++) {
     createDrop();
 }
