@@ -3,7 +3,6 @@ let currentIndex = variables.indexOf(1);
 
 function updateDisplay() {
     const currentValue = variables[currentIndex];
-    document.getElementById("variable").innerText = currentValue;
     executeAction(currentValue);
 }
 
