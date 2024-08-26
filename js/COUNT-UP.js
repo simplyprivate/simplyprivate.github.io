@@ -14,6 +14,6 @@ const countdownInterval = setInterval(() => {
     document.getElementById('minutes').innerHTML = String(minutes).padStart(2, '0');
     document.getElementById('seconds').innerHTML = String(seconds).padStart(2, '0');
 
-    document.getElementById('message').textContent = 'making version 3.6.1';
+    document.getElementById('message').textContent = 'coding version 3.6.1   (51% complete)';
     document.getElementById('message').style.opacity = '1';
 }, 500);
