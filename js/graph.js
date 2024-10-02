@@ -27,7 +27,7 @@ const statisticsChart = new Chart(ctx, {
         plugins: {
             title: {
                 display: true,
-                text: '[state]: loading statistics for month july'
+                text: 'collecting monthly data: october 2024'
             },
             tooltip: {
                 mode: 'index',
