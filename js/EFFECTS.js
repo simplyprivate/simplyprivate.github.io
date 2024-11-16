@@ -80,22 +80,18 @@ function createExplosion(x, y) {
         particle.style.left = `${x}px`;
         particle.style.top = `${y}px`;
 
-        // Randomly assign color
         particle.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
 
-        // Calculate random explosion direction
         const angle = Math.random() * 360;
         const distance = Math.random() * 150 + 50;
         const xOffset = Math.cos(angle) * distance;
         const yOffset = Math.sin(angle) * distance;
 
-        // Use CSS variables to control the explosion direction
         particle.style.setProperty('--x', `${xOffset}px`);
         particle.style.setProperty('--y', `${yOffset}px`);
 
         ff.appendChild(particle);
 
-        // Remove particle after animation
         setTimeout(() => {
             particle.remove();
         }, 7000);
@@ -103,3 +99,4 @@ function createExplosion(x, y) {
 }
 
 
+cf();

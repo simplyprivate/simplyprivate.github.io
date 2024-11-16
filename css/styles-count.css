@@ -7,7 +7,7 @@ body{
     background-color: black;
     overflow: hidden;
     font-family: QuickSand;
-    
+    text-align: center;
 }
 
 @font-face {
@@ -132,7 +132,6 @@ body{
     border-radius: 0px;
     border-bottom-width: 3px;
     border-color: white;
-    margin-left: 070;
     transition: 0.2s;
 }
 
@@ -181,10 +180,10 @@ body{
 }
 
 #countdown {
+    text-align: center;
     font-family: QuickSand;
-    font-size: 5em;
+    font-size: 38;
     font-weight: bold;
-    letter-spacing: 0.1em;
     display: flex;
     justify-content: center;
     align-items: center;
